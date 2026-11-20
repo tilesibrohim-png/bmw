@@ -1,0 +1,294 @@
+
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="BMW avtomobillari — dizayn, innovatsiya va haydash zavqi.">
+  <title>BMW | Beyond the Drive</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+
+<header class="header">
+  <a class="brand" href="#home">
+    <span class="roundel">BMW</span>
+    <span class="brand-caption">THE ULTIMATE<br>DRIVING MACHINE</span>
+  </a>
+
+  <button class="menu-btn" id="menuBtn" aria-label="Menyuni ochish">☰</button>
+
+  <nav id="navbar">
+    <a href="#home">Bosh sahifa</a>
+    <a href="#models">Modellar</a>
+    <a href="#about">BMW haqida</a>
+    <a href="#technology">Texnologiya</a>
+  </nav>
+</header>
+
+<main>
+
+<section class="hero" id="home">
+  <div class="hero-bg"></div>
+  <div class="hero-shade"></div>
+
+  <div class="hero-content">
+    <span class="eyebrow">SHEER DRIVING PLEASURE</span>
+
+    <h1>HARAKATDA<br><em>MUKAMMALLIK.</em></h1>
+
+    <p>
+      Bu shunchaki avtomobil emas. Bu — muhandislik,
+      dizayn va haydash zavqining uyg‘unligi.
+    </p>
+
+    <a class="primary-btn" href="#models">
+      MODELLARNI KASHF ET <b>↗</b>
+    </a>
+  </div>
+
+  <div class="hero-foot">
+    <span>BMW WORLD</span>
+    <span>01 — 07</span>
+  </div>
+</section>
+
+<section class="intro section" id="about">
+  <span class="eyebrow">01 / BMW FALSAFASI</span>
+
+  <div class="intro-grid">
+    <h2>NOT JUST A CAR.<br><em>A WAY OF LIFE.</em></h2>
+
+    <div>
+      <p class="lead">Har bir yo‘l — yangi imkoniyat.</p>
+
+      <p>
+        BMW avtomobillari o‘ziga xos dizayn, muhandislik
+        aniqligi va zamonaviy texnologiyalarni birlashtiradi.
+        Har bir model haydovchiga alohida tajriba taqdim
+        etish uchun yaratilgan.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section class="models section" id="models">
+  <span class="eyebrow">02 / MODEL COLLECTION</span>
+
+  <div class="section-heading">
+    <h2>BMW MODELLARINI<br><em>KASHF ETING.</em></h2>
+
+    <p>
+      Sport, SUV yoki elektr — o‘zingizga mos
+      yo‘nalishni tanlang.
+    </p>
+  </div>
+
+  <div class="filters">
+    <button class="filter-btn active" data-filter="all">Barchasi</button>
+    <button class="filter-btn" data-filter="m">BMW M</button>
+    <button class="filter-btn" data-filter="suv">SUV</button>
+    <button class="filter-btn" data-filter="electric">Electric</button>
+  </div>
+
+  <div class="car-grid">
+
+    <article class="car-card" data-category="m">
+      <div class="car-image">
+        <img
+          src="https://mediapool.bmwgroup.com/cache/P9/202405/P90551011/P90551011-the-new-bmw-m3-sedan-05-2024-2000px.jpg"
+          alt="BMW M3 Sedan">
+        <span>BMW M</span>
+      </div>
+
+      <div class="car-info">
+        <small>SPORT SEDAN</small>
+        <h3>BMW M3</h3>
+        <p>Sport xarakteri va haydovchiga yo‘naltirilgan boshqaruv.</p>
+        <button class="details-btn" data-car="m3">BATAFSIL ↗</button>
+      </div>
+    </article>
+
+    <article class="car-card" data-category="m">
+      <div class="car-image">
+        <img
+          src="https://mediapool.bmwgroup.com/download/edown/pressclub/publicq?actEvent=image&attachment=1&dokNo=P90416608"
+          alt="BMW M4 Competition">
+        <span>BMW M</span>
+      </div>
+
+      <div class="car-info">
+        <small>SPORT COUPÉ</small>
+        <h3>BMW M4</h3>
+        <p>Jasur ko‘rinish va M oilasiga xos sport ruhi.</p>
+        <button class="details-btn" data-car="m4">BATAFSIL ↗</button>
+      </div>
+    </article>
+
+    <article class="car-card" data-category="m">
+      <div class="car-image">
+        <img
+          src="https://mediapool.bmwgroup.com/cache/P9/201708/P90273025/P90273025-the-bmw-m5-first-edition-08-2017-2250px.jpg"
+          alt="BMW M5">
+        <span>BMW M</span>
+      </div>
+
+      <div class="car-info">
+        <small>PERFORMANCE SEDAN</small>
+        <h3>BMW M5</h3>
+        <p>Hashamat va yuqori unumdorlik uyg‘unligi.</p>
+        <button class="details-btn" data-car="m5">BATAFSIL ↗</button>
+      </div>
+    </article>
+
+    <article class="car-card" data-category="suv">
+      <div class="car-image">
+        <img
+          src="https://mediapool.bmwgroup.com/cache/P9/202308/P90518137/P90518137-the-new-bmw-x5-08-23-2248px.jpg"
+          alt="BMW X5">
+        <span>BMW X</span>
+      </div>
+
+      <div class="car-info">
+        <small>SPORT ACTIVITY VEHICLE</small>
+        <h3>BMW X5</h3>
+        <p>Kundalik qulaylik va uzoq safarlar uchun ko‘p qirralilik.</p>
+        <button class="details-btn" data-car="x5">BATAFSIL ↗</button>
+      </div>
+    </article>
+
+    <article class="car-card" data-category="suv">
+      <div class="car-image">
+        <img
+          src="https://mediapool.bmwgroup.com/cache/P9/202309/P90524733/P90524733-bmw-x5-and-bmw-x6-on-location-09-2023-2250px.jpg"
+          alt="BMW X6 va X5">
+        <span>BMW X</span>
+      </div>
+
+      <div class="car-info">
+        <small>SPORT ACTIVITY COUPÉ</small>
+        <h3>BMW X6</h3>
+        <p>Kupe uslubidagi siluet va o‘ziga xos SUV xarakteri.</p>
+        <button class="details-btn" data-car="x6">BATAFSIL ↗</button>
+      </div>
+    </article>
+
+    <article class="car-card" data-category="electric">
+      <div class="car-image">
+        <img
+          src="https://mediapool.bmwgroup.com/cache/P9/202109/P90437468/P90437468-the-first-ever-bmw-ix-and-the-first-ever-bmw-i4-09-2021-2250px.jpg"
+          alt="BMW i4 va iX">
+        <span>BMW i</span>
+      </div>
+
+      <div class="car-info">
+        <small>FULLY ELECTRIC</small>
+        <h3>BMW i4</h3>
+        <p>Elektr mobilligi va Gran Coupé dizayni.</p>
+        <button class="details-btn" data-car="i4">BATAFSIL ↗</button>
+      </div>
+    </article>
+
+    <article class="car-card" data-category="electric">
+      <div class="car-image">
+        <img
+          src="https://autopro8.mediacdn.vn/134505113543774208/2023/3/24/bmwi41a20230323113621-1679617333815-16796173342231700593051.jpg"
+          alt="BMW i4 va i7">
+        <span>BMW i</span>
+      </div>
+
+      <div class="car-info">
+        <small>ELECTRIC LUXURY</small>
+        <h3>BMW i7</h3>
+        <p>Elektr quvvati va premium sedan qulayligi.</p>
+        <button class="details-btn" data-car="i7">BATAFSIL ↗</button>
+      </div>
+    </article>
+
+  </div>
+
+  <p class="note">
+    Rasmlar BMW Group PressClub va avtomobil media manbalaridan
+    yuklanadi. Ayrim suratlarda bir nechta model ko‘rsatilgan.
+    Rasmiy foydalanish uchun tegishli ruxsatlarni tekshiring.
+  </p>
+</section>
+
+<section class="technology" id="technology">
+  <div class="tech-photo"></div>
+
+  <div class="tech-copy">
+    <span class="eyebrow">03 / INNOVATION</span>
+
+    <h2>KELAJAK<br><em>BUGUNDAN.</em></h2>
+
+    <p>
+      Raqamli xizmatlar, elektr mobillik va haydovchiga
+      yordam beruvchi tizimlar avtomobil tajribasini
+      yangi bosqichga olib chiqadi.
+    </p>
+
+    <ul>
+      <li>01 — Intelligent technology</li>
+      <li>02 — Electric mobility</li>
+      <li>03 — Premium comfort</li>
+    </ul>
+  </div>
+</section>
+
+<section class="quote section">
+  <span class="eyebrow">04 / BMW SPIRIT</span>
+
+  <blockquote>
+    “Katta maqsadlar kichik qadamlardan boshlanadi.
+    Harakatni bugun boshla.”
+  </blockquote>
+
+  <p>DRIVE YOUR AMBITION</p>
+</section>
+
+<section class="contact section">
+  <div>
+    <span class="eyebrow">05 / EXPLORE BMW</span>
+    <h2>YOUR JOURNEY<br><em>STARTS HERE.</em></h2>
+  </div>
+
+  <a class="primary-btn"
+     href="https://www.bmw.com/"
+     target="_blank"
+     rel="noopener">
+    BMW RASMIY SAYTI ↗
+  </a>
+</section>
+
+</main>
+
+<div class="modal" id="carModal" role="dialog"
+     aria-modal="true" aria-labelledby="modalTitle">
+
+  <div class="modal-box">
+    <button class="modal-close" id="closeModal" aria-label="Yopish">×</button>
+
+    <span class="eyebrow">BMW MODEL INFORMATION</span>
+
+    <h2 id="modalTitle"></h2>
+    <p id="modalText"></p>
+
+    <a class="primary-btn"
+       href="https://www.bmw.com/"
+       target="_blank"
+       rel="noopener">
+      BMW.COM ↗
+    </a>
+  </div>
+</div>
+
+<footer>
+  <strong>BMW</strong>
+  <p>Mustaqil o‘quv loyihasi — rasmiy BMW sayti emas.</p>
+  <small>© <span id="year"></span> BMW CONCEPT</small>
+</footer>
+
+</body>
+</html>
